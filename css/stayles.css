@@ -1,0 +1,100 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Open Sans , sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #444;
+    background-color: #fff;
+}
+
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-link{
+    padding: 12px 24px;
+    background-color: #DE2E54;
+    color: #ffff;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+
+
+.site-header{
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.site-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.site-logo-img{
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+.site-header-logo-text{
+    font-family: 'open sans', 'sans-serif';
+    font-weight: 600;
+    font-size: 24px;
+    color: black;
+}
+.site-nav{
+    display: block;
+}
+.site-nav-list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    color: #222222;
+    font-family: 'open sans';
+    font-weight: 700;
+    letter-spacing: 150%;
+}
+.site-nav-item{
+    margin-right: 32px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.site-nav-link{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #222;
+    
+}
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<< hero>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
