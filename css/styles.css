@@ -21,3 +21,76 @@ body {
     margin-left: auto;
 }
 
+/* BUTTON  */
+.button {
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 22.5px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    background-color: #DE2E54;
+    color: #fff;
+}
+
+.button:hover{
+    background-color: #fff;
+    color: #DE2E54;
+  
+}
+
+
+
+/* SITE-HEADER  */
+.site-header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.site-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: block;
+}
+
+.logo-img {
+    width: 185px;
+    height: 50px;
+}
+
+.sitenav {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.sitenal-list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.sitenav-item:not(:last-child) {
+    margin-right: 32px;
+}
+
+.sitenav-link {
+    color: #222;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.sitenav-link:hover {
+    color: #DE2E54;                                                                                                                                                         
+}
