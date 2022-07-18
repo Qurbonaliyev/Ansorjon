@@ -133,6 +133,9 @@ body {
     color: #DE2E54;
     transition: color 0.4 ease;                                                                                                                                                         
 }
+.sitenav-link:active{
+    opacity: 0.8;
+}
 /* /header */
 
 /* Main */
@@ -209,7 +212,7 @@ body {
 
 .main-link-or:hover{
     background-color: #de2e54;
-    color: #999;
+    color: #ccc;
     transition: 0.4s ease;
 }
 .main-link-or:active{
@@ -350,26 +353,40 @@ body {
 .wrapper-tta{
     
 }
+
+/* cta */
 .cta{
-    justify-content: space-between;
-    background-color: #0EB4C1;
-    padding-bottom: 64px;
-}
-.cta-wrapper{
-    margin: 0;
-    padding: 0;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    background-color: #0EB4C1;
+    padding-top: 64px;
+    padding-bottom: 64px;
 }
- 
 
 .cta-title{
-    padding-top: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
     color: #fff;
-    margin-top: 64px;
     margin-bottom: 40px;
 }
 .cta-main-link{
     
+    margin-right: 50px;
+    background-color: #0EB4C1;
+    color: #fff;
+    border: solid 2px white;
+}
+.cta-main-link:hover{
+    color: #FFF;
+}
+.cta-main-link-last-child{
+    background-color: #0EB4C1;
+    color: #fff;
+    border: solid 2px white;
+}
+.cta-main-link-last-child:hover{
+    color: #FFF;
 }
