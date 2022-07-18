@@ -141,7 +141,6 @@ body {
 /* Main */
 .site-main {
     background-color: #0EB4C1;
-    
     margin-left: auto;
     margin-right: auto;
     color: #fff;
@@ -218,6 +217,12 @@ body {
 .main-link-or:active{
     opacity: 0.8;
 }
+
+.site-hero-img{
+    padding-top: 30px;
+    align-self: flex-end;
+}
+
 .treatment-methods-img{
     box-shadow: 0px 12px 24px -8px rgba(0, 107, 116, 0.3);
 }
@@ -285,7 +290,6 @@ body {
 .button-down:hover{
     background-color: #fff;
     color: #DE2E54;
-    
 }
 .button-down:active{
     background-color: #DE2E54;
@@ -344,6 +348,7 @@ body {
 }
 .cta-main-link:hover{
     color: #FFF;
+    border-color: transparent;
 }
 .cta-main-link-last-child{
     background-color: #0EB4C1;
